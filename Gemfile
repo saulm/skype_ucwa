@@ -4,5 +4,6 @@ gem 'httplog'
 
 group :development do
   gem 'webmock'
+  gem 'rb-readline'
   gem 'pry'
 end

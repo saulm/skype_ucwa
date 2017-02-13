@@ -12,4 +12,9 @@ Gem::Specification.new do |s|
 
   s.add_dependency "httplog"
   s.add_dependency "rest-client", "2.0.0.rc2"
+
+  s.add_development_dependency "webmock"
+  s.add_development_dependency "rb-readline"
+  s.add_development_dependency "pry"
+
 end
